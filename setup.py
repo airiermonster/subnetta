@@ -26,7 +26,7 @@ setup(
     name="subnetta",
     version="1.0.0",
     author="Maximillian Urio",
-    author_email="",
+    author_email="airiermonster@gmail.com",
     description="A cross-platform IPv4 subnetting tool with interactive CLI",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
