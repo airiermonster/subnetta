@@ -30,7 +30,7 @@ setup(
     description="A cross-platform IPv4 subnetting tool with interactive CLI",
     long_description=read_readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/maximillian-urio/subnetta",
+    url="https://github.com/airiermonster/subnetta",
     py_modules=["subnetta"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -61,7 +61,7 @@ setup(
         "cli", "network", "administration", "cidr", "subnet-mask"
     ],
     project_urls={
-        "Bug Reports": "https://github.com/maximillian-urio/subnetta/issues",
-        "Source": "https://github.com/maximillian-urio/subnetta",
+        "Bug Reports": "https://github.com/airiermonster/subnetta/issues",
+        "Source": "https://github.com/airiermonster/subnetta",
     },
 )

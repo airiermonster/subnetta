@@ -4,7 +4,7 @@
 
 **A Beautiful, Interactive IPv4 Subnetting Tool**
 
-*Simplify complex subnetting calculations with step-by-step guidance*
+_Simplify complex subnetting calculations with step-by-step guidance_
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge)]()
@@ -24,8 +24,8 @@ Subnetta transforms the complex world of IPv4 subnetting into an intuitive, inte
 
 <div align="center">
 
-| 🎯 **Precision** | 🎨 **Beauty** | ⚡ **Speed** | 🔧 **Flexibility** |
-|:---:|:---:|:---:|:---:|
+|                🎯 **Precision**                |             🎨 **Beauty**              |       ⚡ **Speed**        |            🔧 **Flexibility**             |
+| :--------------------------------------------: | :------------------------------------: | :-----------------------: | :---------------------------------------: |
 | Accurate calculations for all subnet scenarios | Beautiful ASCII art and colored output | Sub-second response times | Multiple input methods and output formats |
 
 </div>
@@ -54,6 +54,7 @@ Subnetta transforms the complex world of IPv4 subnetting into an intuitive, inte
 <td>
 
 ### 🎯 **Core Functionality**
+
 - **Interactive CLI Interface** with step-by-step guidance
 - **Dual Input Methods**: Calculate by subnets OR hosts
 - **nth Subnet Lookup** for specific subnet details
@@ -63,6 +64,7 @@ Subnetta transforms the complex world of IPv4 subnetting into an intuitive, inte
 <td>
 
 ### 🎨 **User Experience**
+
 - **Beautiful ASCII Art** banner
 - **Colored Terminal Output** (optional)
 - **Intelligent Input Validation**
@@ -74,6 +76,7 @@ Subnetta transforms the complex world of IPv4 subnetting into an intuitive, inte
 <td>
 
 ### 🔧 **Technical Excellence**
+
 - **Cross-Platform** (Windows & Linux)
 - **Zero Dependencies** for core functionality
 - **Automatic Dependency Management**
@@ -83,6 +86,7 @@ Subnetta transforms the complex world of IPv4 subnetting into an intuitive, inte
 <td>
 
 ### 📊 **Comprehensive Results**
+
 - **Complete Subnet Information**
 - **IP Address Analysis** (private/public/special)
 - **Formatted Result Tables**
@@ -98,7 +102,7 @@ Subnetta transforms the complex world of IPv4 subnetting into an intuitive, inte
 
 ```bash
 # Clone and install globally
-git clone https://github.com/maximillian-urio/subnetta.git && cd subnetta && pip install -e . && subnetta
+git clone https://github.com/airiermonster/subnetta.git && cd subnetta && pip install -e . && subnetta
 ```
 
 ### Alternative Installation Methods
@@ -108,7 +112,7 @@ git clone https://github.com/maximillian-urio/subnetta.git && cd subnetta && pip
 
 ```bash
 # Clone the repository
-git clone https://github.com/maximillian-urio/subnetta.git
+git clone https://github.com/airiermonster/subnetta.git
 cd subnetta
 
 # Install as a package
@@ -117,6 +121,7 @@ pip install -e .
 # Run from anywhere
 subnetta
 ```
+
 </details>
 
 <details>
@@ -124,27 +129,31 @@ subnetta
 
 ```bash
 # Clone and run directly
-git clone https://github.com/maximillian-urio/subnetta.git
+git clone https://github.com/airiermonster/subnetta.git
 cd subnetta
 python subnetta.py
 ```
+
 </details>
 
 <details>
 <summary><b>⚡ Method 3: Platform-Specific Scripts</b></summary>
 
 **Windows:**
+
 ```cmd
 # Run the automated installer
 install.bat
 ```
 
 **Linux/macOS:**
+
 ```bash
 # Make executable and run
 chmod +x install.sh
 ./install.sh
 ```
+
 </details>
 
 ## 💡 Examples
@@ -212,16 +221,16 @@ Options:
 
 <div align="center">
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| IPv4 Validation | Comprehensive input validation | ✅ |
-| Class Detection | Automatic A/B/C classification | ✅ |
-| Subnet Calculation | By number of subnets | ✅ |
-| Host Calculation | By hosts per subnet | ✅ |
-| nth Subnet Lookup | Specific subnet details | ✅ |
-| IP Analysis | Private/Public/Special detection | ✅ |
-| Error Handling | User-friendly error messages | ✅ |
-| Cross-Platform | Windows & Linux support | ✅ |
+| Feature            | Description                      | Status |
+| ------------------ | -------------------------------- | ------ |
+| IPv4 Validation    | Comprehensive input validation   | ✅     |
+| Class Detection    | Automatic A/B/C classification   | ✅     |
+| Subnet Calculation | By number of subnets             | ✅     |
+| Host Calculation   | By hosts per subnet              | ✅     |
+| nth Subnet Lookup  | Specific subnet details          | ✅     |
+| IP Analysis        | Private/Public/Special detection | ✅     |
+| Error Handling     | User-friendly error messages     | ✅     |
+| Cross-Platform     | Windows & Linux support          | ✅     |
 
 </div>
 
@@ -272,7 +281,7 @@ graph TB
     D --> E[nth Subnet Lookup]
     E --> F[Interactive Loop]
     F --> A
-    
+
     G[DependencyManager] --> H[Colorama Setup]
     H --> I[Colors Class]
     I --> D
@@ -282,12 +291,12 @@ graph TB
 
 <div align="center">
 
-| Metric | Performance |
-|--------|-------------|
-| Response Time | < 1 second |
-| Memory Usage | < 10 MB |
-| Startup Time | < 0.5 seconds |
-| Test Coverage | 100% |
+| Metric        | Performance   |
+| ------------- | ------------- |
+| Response Time | < 1 second    |
+| Memory Usage  | < 10 MB       |
+| Startup Time  | < 0.5 seconds |
+| Test Coverage | 100%          |
 
 </div>
 
@@ -331,7 +340,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone and setup development environment
-git clone https://github.com/maximillian-urio/subnetta.git
+git clone https://github.com/airiermonster/subnetta.git
 cd subnetta
 pip install -e .
 python test_subnetta.py
@@ -363,9 +372,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Maximillian Urio**
 
-*Network Engineer & Python Developer*
+_Software & Network Engineer_
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/maximillian-urio)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/airiermonster)
 
 </div>
 
@@ -382,9 +391,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Happy Subnetting! 🌐**
 
-*Making network calculations beautiful, one subnet at a time.*
+_Making network calculations beautiful, one subnet at a time._
 
-[![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)]()
+[![Made with Love in Arusha, Tanzania](https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge)]()
 [![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=for-the-badge&logo=python&logoColor=white)]()
 
 </div>
